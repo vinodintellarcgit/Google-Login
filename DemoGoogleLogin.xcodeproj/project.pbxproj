@@ -18,6 +18,7 @@
 		76E30A3CC10ECE59756B2FD7 /* Pods_DemoGoogleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185FF65E10BCC08551E36E25 /* Pods_DemoGoogleLogin.framework */; };
 		81B45306229BBAD000309368 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B45305229BBAD000309368 /* Constant.swift */; };
 		81B4530D229BCA4100309368 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4530C229BCA4100309368 /* Extentions.swift */; };
+		81B45312229C0A9200309368 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B45311229C0A9200309368 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		6978C616227B00AF00042A59 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		81B45305229BBAD000309368 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		81B4530C229BCA4100309368 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		81B45311229C0A9200309368 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		F9A7EE1216925D993131C5A4 /* Pods-DemoGoogleLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoGoogleLogin.release.xcconfig"; path = "Target Support Files/Pods-DemoGoogleLogin/Pods-DemoGoogleLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 		81B45308229BBB0E00309368 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				81B45310229C0A8500309368 /* Images */,
 				81B4530B229BBBA300309368 /* Constants */,
 				81B4530A229BBB9300309368 /* UserModel */,
 				81B45309229BBB1A00309368 /* Controllers */,
@@ -141,6 +144,14 @@
 				81B45305229BBAD000309368 /* Constant.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		81B45310229C0A8500309368 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				81B45311229C0A9200309368 /* screenshot.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 				6978C615227AE73400042A59 /* credentials.plist in Resources */,
 				6978C60A227ACDE400042A59 /* Assets.xcassets in Resources */,
 				6978C608227ACDE300042A59 /* Main.storyboard in Resources */,
+				81B45312229C0A9200309368 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
