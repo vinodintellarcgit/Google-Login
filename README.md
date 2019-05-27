@@ -40,6 +40,8 @@ com.googleusercontent.apps.1234567890-abcdefg
 
 
 
+![](DemoGoogleLoginSources/Images/screenshot.png)
+
 
 
 
