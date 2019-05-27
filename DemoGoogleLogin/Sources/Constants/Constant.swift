@@ -11,7 +11,7 @@ import UIKit
 
 struct Constant {
 
-    static let CLIENT_ID = "Put Your Client Id Here"
+    static let CLIENT_ID = "Put your client id here"
 
 }
 
